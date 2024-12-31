@@ -1,0 +1,21 @@
+body {
+    background-image: url("fond-islamique.jpg");
+}
+
+.icon {
+    border-radius: 10px;
+}
+
+nav.menu-nav ul li.btn {
+    list-style-type: none;
+}
+
+nav.menu-nav ul li a {
+    text-decoration: none;
+}
+
+nav.menu-nav ul li.btn:hover a {
+    color: blue;
+    background-color: blueviolet;
+    transition: 0.3s all;
+}
