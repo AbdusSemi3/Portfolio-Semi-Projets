@@ -1,9 +1,13 @@
-body {
-    background-image: url("fond-islamique.jpg");
+.id {
+    background-image: url("islam4fond.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .icon {
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 nav.menu-nav ul li.btn {
@@ -15,7 +19,8 @@ nav.menu-nav ul li a {
 }
 
 nav.menu-nav ul li.btn:hover a {
-    color: blue;
+    color: violet;
     background-color: blueviolet;
     transition: 0.3s all;
+    border-radius: 20px;
 }
